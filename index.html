@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Google Form</title>
+    <style>
+        /* Disable text selection */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /* Disable right-click context menu */
+        body {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <script>
+        // Disable right-click context menu
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        }, false);
+    </script>
+</head>
+<body>
+    <!-- Embed your Google Form below -->
+    <iframe src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHoKNSjozOrF1fPj_iUFEpKTUz6Kk_65QjSVIBvtxeDAuyKg/viewform?embedded=true" width="640" height="6200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</body>
+</html>
